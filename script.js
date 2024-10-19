@@ -8,7 +8,7 @@ let limit =20
 
 add.addEventListener('click',()=>{
     displayNum++;
-    if(displayNum>0){
+    if(displayNum>=0){
         number.style.color = "green"
     }
     if(displayNum>=limit){
