@@ -11,7 +11,7 @@ add.addEventListener('click',()=>{
     if(displayNum>=0){
         number.style.color = "green"
     }
-    if(displayNum>=limit){
+    if(displayNum>limit){
         displayNum=limit;
         limitPara.innerHTML = "Sorry the limit is 20"
         limitPara.style.fontWeight = "800"
